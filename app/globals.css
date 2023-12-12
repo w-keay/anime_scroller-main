@@ -1,0 +1,31 @@
+/**
+ * Tailwind CSS styles for a dark-themed web page.
+ * Includes base styles, components, and utilities.
+ */
+
+/* Apply base styles from Tailwind CSS */
+@tailwind base;
+
+/* Apply component styles from Tailwind CSS */
+@tailwind components;
+
+/* Apply utility styles from Tailwind CSS */
+@tailwind utilities;
+
+/* Set the background color of the body to black */
+body {
+  background-color: #000;
+}
+
+/* Apply a red gradient text effect using linear-gradient */
+.yellow-gradient {
+  background: linear-gradient(92deg, #ffee00 2.87%, #e4f03a 96.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Set the color scheme of the root element to dark */
+:root {
+  color-scheme: dark;
+}
